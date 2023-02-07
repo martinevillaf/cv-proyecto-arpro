@@ -25,7 +25,7 @@ body {
   margin-right: 30px;
 }
 
-.container_16 .grid_16 {
+ .grid_16 {
 	width: 98.0%;
 }
 
@@ -49,9 +49,11 @@ header figure {
 header figure img {
   border-radius: 90px;
   border: solid #fff;
-  height: 175px;
-  width: 175px;
+  height: 300px;
+  width: 300px;
   position: relative;
+  
+  
 }
 
 header hgroup {
@@ -59,28 +61,29 @@ header hgroup {
   text-align: center;
 }
 
-header hgroup h1 {
+
+header  h1 {
   color: #fff;
   font: 400 40px oswald, sans-serif;
   text-shadow: 1px 1px 0 rgba(0,0,0,.3);
 }
 
-header hgroup h2 {
+header  h2 {
   color: #fff;
   font-style: italic;
   font: 400 20px oswald,sans-serif;
   text-shadow: 1px 1px 0 rgba(0,0,0,.3);
 }
-
+/* PARA QUE LA IMAGEN GIRE (CSS)*/
 #cv {
   width: 45px;
   height: 55px;
   /* IE 9 */
   -ms-transform: rotate(15deg); 
   /* Chrome, Safari, Opera */
-  -webkit-transform: rotate(15deg); 
+  -webkit-transform: rotate(150deg); 
   transform: rotate(15deg);
-  box-shadow: 1px 1px 1px #888888;
+  box-shadow: 10px 10px 10px #888888;
 }
 
 /***************
